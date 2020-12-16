@@ -1,0 +1,4 @@
+dist/
+build
+sms_send_tilakpatel.egg-info/
+easy-sms/__pycache__
