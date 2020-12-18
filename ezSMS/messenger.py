@@ -1,5 +1,6 @@
 import smtplib, ssl
-from errors import LoginError
+from ezSMS.errors import LoginError
+from ezSMS.errors import SendError
 
 class Messenger:
     def __init__(self, email: str, password: str, smtp_server: str, port: int = 587) -> None:

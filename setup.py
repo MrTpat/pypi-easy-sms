@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="sms-send-tilakpatel", # Replace with your own username
-    version="0.1.0",
+    name="ezSMS", # Replace with your own username
+    version="0.2.0",
     author="Tilak Patel",
     author_email="tilakpat@outlook.com",
     description="A small package that allows you to send easy SMS messages.",
